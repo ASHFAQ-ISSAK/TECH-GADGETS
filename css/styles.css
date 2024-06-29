@@ -1,0 +1,144 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #bb7171;
+    color: #fff;
+    padding: 1em 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 1em;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    flex: 1;
+    padding: 2em;
+}
+
+footer {
+    background-color: #080808;
+    color: #fff;
+    text-align: center;
+    padding: .1em 0;
+    position: relative;
+    width: 100%;
+}
+
+.gadget-section {
+    margin-bottom: 2em;
+}
+
+.gadget {
+    display: inline-block;
+    width: 45%;
+    margin: 2%;
+    text-align: center;
+}
+
+.gadget img {
+    width: 200px;
+    height: 200px;
+}
+
+
+.gadget h4 {
+    margin: 0.5em 0 0.2em 0;
+}
+
+.gadget p {
+    margin: 0;
+    font-size: 0.9em;
+    color: #555;
+}
+
+.team-member {
+    display: inline-block;
+    width: 45%;
+    margin: 2%;
+    text-align: center;
+    border: solid 1px gainsboro;
+    border-radius: 10px;
+}
+
+
+
+.team-member h4 {
+    margin: 0.5em 0 0.2em 0;
+}
+
+.team-member p {
+    margin: 0;
+    font-size: 0.9em;
+    color: #555;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 2em;
+}
+
+table th, table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+table th {
+    background-color: #f2f2f2;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+form label {
+    display: block;
+    margin-top: 1em;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 0.5em;
+    margin-top: 0.5em;
+    box-sizing: border-box;
+}
+
+form button {
+    display: block;
+    width: 100%;
+    padding: 0.7em;
+    margin-top: 1em;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #555;
+}
