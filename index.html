@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>Tech and Gadgets</title>
     <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 </head>
 <body>
     <header>
@@ -15,6 +16,10 @@
                 <li><a href="reviews.html">Reviews</a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
+            <label class="switch">
+                <input type="checkbox" id="dark-mode-toggle">
+                <span class="slider round"></span>
+            </label>
         </nav>
     </header>
     <main>
@@ -47,7 +52,7 @@
                 </div>
             </div>
             <div class="gadget-section">
-                <h3>Behringer </h3>
+                <h3>Behringer</h3>
                 <div class="gadget">
                     <img src="/assets/imgs/Behringer-HC-200-3.webp" alt="Headphones 1">
                     <h4>Headphones Model 1</h4>
@@ -59,10 +64,16 @@
                     <p>Lightweight long life comfort.</p>
                 </div>
             </div>
+            <button class="scroll-to-top"><span class="material-symbols-outlined">
+                arrow_upward
+                </span></button>
         </section>
     </main>
     <footer>
         <p>&copy; 2024 Tech and Gadgets</p>
     </footer>
+    <script src="/js/night-mode.js"></script>
+    <script src="/js/time-open.js"></script>
+    <script src="/js/scroll-to-top.js"></script>
 </body>
 </html>
